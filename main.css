@@ -342,3 +342,20 @@ font-family: 'Playfair Display', serif;
 .steps__text {
   margin-top: 10px;
 }
+
+.news__content {
+  display: flex;
+}
+
+.footer {
+  background-color: #AE7C78;
+}
+
+.footer__box {
+  list-style: none;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
