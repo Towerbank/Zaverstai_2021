@@ -42,6 +42,10 @@ font-family: 'Playfair Display', serif;
   font-size: 16px;
 }
 
+.header__link:hover {
+  font-weight: bold;
+}
+
 .main__box {
   display: flex;
   margin-top: 82px;
@@ -72,6 +76,15 @@ font-family: 'Playfair Display', serif;
   color: #FFFFFF;
   background-color: #D89999;
   border: none;
+}
+
+
+.main__button:hover {
+  box-shadow: 0 2px 5px 1px #2E2F22;
+}
+
+.main__button:active {
+  box-shadow: inset 0 1px 5px 0 #2E2F22;
 }
 
 .main__pictures {
@@ -178,6 +191,14 @@ font-family: 'Playfair Display', serif;
   border: none;
 }
 
+.popular__button:hover {
+  box-shadow: 0 2px 5px 1px #2E2F22;
+}
+
+.popular__button:active {
+  box-shadow: inset 0 1px 5px 0 #2E2F22;
+}
+
 .popular__arrows {
   margin-top: 20px;
 }
@@ -236,6 +257,17 @@ font-family: 'Playfair Display', serif;
   border-right: 2px solid #AE7C78;
   transform: rotate(-135deg);
 }
+
+.popular__arrow--right:hover {
+  transform: scale(1.2);
+
+}
+
+.popular__arrow--left:hover {
+  transform: scale(1.2);
+}
+
+
 
 .catalog {
   margin-top: 80px;
