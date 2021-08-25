@@ -255,22 +255,34 @@ font-family: 'Playfair Display', serif;
 .catalog__item::after {
   content: '';
   width: 100%;
-  height: 99.1%;
+  height: 35%;
   position: absolute;
   background: #AE7C78;
   opacity: 0.6;
   left: 0;
   top: 0;
   border-radius: 10px;
+  transition: all 0.5s;
+
+}
+
+.catalog__item:hover::after {
+  height: 99.1%;
 }
 
 .catalog__description {
   position: absolute;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
   z-index: 1;
   text-align: center;
   width: 100%;
+  top: 0%;
+  transition: all 0.5s;
+}
+
+.catalog__item:hover .catalog__description {
+  color: #FFFFFF;
   top: 33%;
 }
 
@@ -343,16 +355,125 @@ font-family: 'Playfair Display', serif;
   margin-top: 10px;
 }
 
+
+
 .news__content {
   display: flex;
+  justify-content: space-between;
 }
+
+.news__description {
+  padding-top: 40px;
+}
+
+.news__title {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  margin-bottom: 40px;
+}
+
+.news__text {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.news__social {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 19px;
+}
+
+.news__images {
+  display: flex;
+  gap: 20px;
+}
+
+.news__images-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+.reviews {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border: 1px solid #AE7C78;
+  padding: 40px 0 64px 0;
+}
+
+.reviews__title {
+  text-align: center;
+}
+
+.reviews__content {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+
+
+.contacts {
+  margin-bottom: -4px;
+}
+
+.contacts__box {
+  position: relative;
+}
+
+.contacts__description {
+  position: absolute;
+  top: 8%;
+  left: 15%;
+  background: #F7FAFC;
+  box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+  border-radius: 12px;
+  padding: 20px 110px 65px 35px;
+}
+
+.contacts__title {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 36px;
+
+}
+
+.contacts__text {
+  font-size: 16px;
+}
+
+.contacts__subtext {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+
+
 
 .footer {
   background-color: #AE7C78;
+  padding: 20px 115px 25px 125px;
+
 }
 
 .footer__box {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.footer__social {
+  padding: 0;
+  display: flex;
+  margin-left: auto;
+  gap: 19px;
 }
 
 .footer__link {
