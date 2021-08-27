@@ -132,8 +132,10 @@ font-family: 'Playfair Display', serif;
   font-size: 16px;
 }
 
+
+
 .popular {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .popular__container {
@@ -211,7 +213,6 @@ font-family: 'Playfair Display', serif;
   color: #2E2F22;
 }
 
-
 .popular__arrow--right::before,
 .popular__arrow--right::after {
   position: absolute;
@@ -237,8 +238,6 @@ font-family: 'Playfair Display', serif;
   width: 50px;
   height: 2px;
 }
-
-
 
 .popular__arrow--right::after {
   bottom: -6px;
@@ -266,6 +265,7 @@ font-family: 'Playfair Display', serif;
 .popular__arrow--left:hover {
   transform: scale(1.2);
 }
+
 
 
 
@@ -335,6 +335,8 @@ font-family: 'Playfair Display', serif;
   border-radius: 10px;
 }
 
+
+
 .discount__content {
   background-color: #AE7C78;
   display: flex;
@@ -354,6 +356,8 @@ font-family: 'Playfair Display', serif;
 .discount__text {
   font-size: 24px;
 }
+
+
 
 .steps {
   margin-top: 80px;
@@ -435,17 +439,23 @@ font-family: 'Playfair Display', serif;
   margin-top: 80px;
   margin-bottom: 80px;
   border: 1px solid #AE7C78;
-  padding: 40px 0 64px 0;
+  padding: 20px 0 64px 0;
 }
 
 .reviews__title {
   text-align: center;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.02em;
 }
 
 .reviews__content {
   display: flex;
   justify-content: space-around;
   text-align: center;
+  font-size: 16px;
 }
 
 
